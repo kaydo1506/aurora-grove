@@ -74,6 +74,29 @@ body {
 }
 
 @media (max-width: 768px) {
+    body {
+        h1 {
+            font-size: 2rem;
+        }
+        h2 {
+            font-size: 1.6rem;
+        }
+        h3 {
+            font-size: 1.3rem;
+        }
+    }
+
+    .lead {
+        font-size: 13px;
+    }
+    .blockquote {
+        font-size: 13px;
+    }
+
+    .card-text {
+        font-size: 13px;
+    }
+
     .navbar {
         background: #1f1f1f;
         .nav-link:hover {
@@ -90,6 +113,10 @@ body {
 
 #explore {
     background-color: rgba(21, 87, 81, 0.698);
+
+    h3 {
+        font-size: 1.3rem;
+    }
 }
 
 #others {
